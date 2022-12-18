@@ -4,13 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    //"build": "next build",
+    "build": "next build",
     "serve": "next start",
-    //"start": "next start",
+    "start": "next start",
     "export": "next build && next export",
-    "postbuild": "next-sitemap",
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build"
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@babel/core": "^7.17.5",
