@@ -15,7 +15,7 @@ export default function Header({ className }) {
     <DrawerProvider>
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
-          <Logo src={LogoDark} />
+          
 
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
@@ -33,20 +33,12 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
-          <Button
-            className="donate__btn"
-            variant="secondary"
-            aria-label="Get Started"
-            onClick={() => useRouter.push('/pucelana')}
-          >
-            PUCELANA
-          </Button>
 
           <Button
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
-            onClick={() => useRouter.push('https://forms.gle/zokFAafH5xj8YYP66')}
+            onClick={() => useRouter.push('')}
           >
             FORMULARIO
           </Button>

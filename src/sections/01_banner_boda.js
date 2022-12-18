@@ -1,10 +1,9 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
-import { Container, Box, Heading, Text, Image,  Button, Flex } from 'theme-ui';
-import BannerImg from 'assets/STD3.png';
-import SectionHeader from 'components/section-header';
+import { Container, Box, Heading, Text, Image } from 'theme-ui';
+import BannerImg from 'assets/StD_3.png';
 
-import PatternBG from 'assets/Castillo_norham.jpg';
+import PatternBG from 'assets/StD_4.png';
 {/*patternBG.png*/}
 
 export default function Banner_Boda() {
@@ -13,7 +12,7 @@ export default function Banner_Boda() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Julia & Pablo
+            Carolina & Esteban
           </Heading>
           <Text 
             as="p" 
@@ -23,8 +22,8 @@ export default function Banner_Boda() {
               px: 2,
             }}
           >
-            Valladolid<br />
-            3 de junio, 2023 <br />
+            Hacienda Fátima, vía El Cerrito<br />
+            Rozo, Valle del Cauca <br />
           </Text>
         </Box>
         <Box sx={styles.banner.imageBox}>
@@ -71,12 +70,13 @@ const styles = {
     
     contentBox: {
       flexShrink: 0,
-      width: ['100%', 450, 550, '350px', '410px', '485px'],
+      width: ['100%', 450, 550, '350px', '410px', '685px'],
       mx: 'auto',
       pb: ['0px', null, null, 0],
       '.description': {
         pr: [0, null, null, null, 4],
       },
+      
     },
     imageBox: {
       display: ['flex', null, null, 'flex'],
