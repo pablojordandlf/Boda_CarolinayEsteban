@@ -19,7 +19,7 @@ const Bienvenida = ({ targetDate }) => {
         
           <SectionHeader
             title2= "BIENVENIDOS"
-            slogan3="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE"
+            slogan3="ESTAMOS MUY FELICES DE QUE PODÁIS COMPARTIR CON NOSOTROS UN DÍA TAN IMPORTANTE "
             slogan4= {<ShowCounter days={days} hours={hours} minutes={minutes} seconds={seconds} />}
           />
         
