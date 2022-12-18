@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next --openssl-legacy-provider build",
-    "serve": "next --openssl-legacy-provider start",
+    "serve": "next start",
     "start": "next --openssl-legacy-provider start",
-    "export": "next --openssl-legacy-provider build && next --openssl-legacy-provider export",
+    "export": "next build && next export",
     "postbuild": "next-sitemap"
   },
   "dependencies": {
