@@ -22,7 +22,7 @@ export default function Banner_Boda() {
               px: 2,
             }}
           >
-            Hacienda Fátima, vía El Cerrito<br />
+            Hacienda Fátima, vía El Cerrito <br />
             Rozo, Valle del Cauca <br />
           </Text>
         </Box>
